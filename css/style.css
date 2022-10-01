@@ -25,7 +25,6 @@ nav{
 }
 .logo{
     width: 40px;
-    border: 1px dashed blue;
 }
 ul li{
     display: inline-block;
@@ -94,25 +93,3 @@ ul li a{
     transform: scale(1.2);
 }
 /* End Icons */
-
-/* Start Responsive */
-@media (max-width:767px) {
-    .content{
-        flex-direction: column;
-        text-align: center;
-    }
-    .content h2{
-        margin-top: 30px;
-    }
-    nav{
-        font-size: 12px;
-    }
-    ul li{
-        padding: 2px;
-    }
-    .logo{
-        width: 20px;
-        margin-right: 10px;
-    }
-}
-/* End Responsive */
